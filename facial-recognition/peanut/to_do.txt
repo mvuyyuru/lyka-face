@@ -1,0 +1,14 @@
+1. os.path.join instead of '' + ''
+2. optical flow enhancements?
+http://docs.opencv.org/trunk/d7/d8b/tutorial_py_lucas_kanade.html
+
+n. etc.
+
+
+hot fixes:
+1. make numbers more visible in video output
+2. render a highest quality output video
+3. python prints video file before requesting to execute
+
+test cases:
+1. quantify for family guy + ryan + will smith + wed/fri lab sessions + find frontal face pictures dump for tests

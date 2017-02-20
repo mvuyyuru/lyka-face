@@ -1,0 +1,23 @@
+?VID?: video for session
+
+=====
+TRAIN
+=====
+
+1. split ?VID? into ?VID?-train (to train oracle, about ~10% of total) and ?VID?-test (to test oracle, remaining ~90% of total)
+
+2. update val of ?VID? in extract_faces.py. then run extract_faces.py
+
+3. manually sort images in /img/?VID?/train/dump into /../train/raw/person1, /..../person2, ...
+
+4. update val of ?VID? in process_faces.py. then run process_faces.py 
+
+5. update val of ?VID? in train_oracle.py. then run train_oracle.py
+
+=====
+EMPLOY
+=====
+
+1. update val of ?VID? in employ_oracle.py. then run employ_oracle.py
+
+2. (optional) update val of ?VID? in render_memories.py then run render_memories.py. Note for now, it just spits out the stored memories.
